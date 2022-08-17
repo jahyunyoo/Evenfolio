@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- 웹페이지 보이지는 않지만, 필요한 설정을 해두는 곳이에요.
+             우리가 집을 위해 미리 생각 해놓은 것을 적어두는 곳이라고 할 수 있죠!-->
+        <meta charset=“UTF-8” />
+        <meta http-equiv=“X-UA-Compatible” content=“IE=edge” />
+        <meta name=“viewport” content=“width=device-width, initial-scale=1.0” />
+        <meta property=“og:title” content=“Jessiejeong - Profile Link” />
+        <meta property=“og:description” content=“Life is Adventure” />
+        <meta property=“og:image” content=“leebun.jpg” />
+        <title>“Jessiejeong - profile link </title>
+        <style>
+            @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+            * {
+                font-family: "Pretendard",serif;
+            }
+            body{
+                background-color: rgb(30, 14, 64);
+            }
+            .profile{
+                width: 100px;
+                height: 100px;
+                background-color: rgb(238, 249, 238);
+                border-radius: 100%;
+                border: 3px solid rgb(248, 244, 244);
+                background-image: url('leebun.jpg');
+                background-position: center;
+                background-size: cover;
+            }
+            .main{
+                color: white;
+                font-size: 20px;
+                margin-top: 30px;
+                margin-bottom: 10px;
+            }
+            .sub{
+                color: white;
+                font-size: 14px;
+                margin-top: 0px;
+                margin-bottom: 30px;
+            }
+            .wrap{
+                
+                width: 300px;
+                margin: 30px auto 0px auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .wrap>a{
+                width: 300px;
+                height: 50px;
+                background-color: white;
+                border-radius: 8px;
+                margin-bottom: 10px;
+                font-size: 14px;
+                font-weight: bold;
+                color: rgb(11, 11, 11);
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+                box-shadow: 3px 3px 5px 0px rgb(59, 59, 59);
+            }
+            .wrap>a:hover{
+                background-color: rgb(222, 228, 222);
+                font-size: 15px;
+            }
+
+        </style>
+   </head>
+    <body>
+        <div class="wrap">
+            <div class="profile"></div>
+       <h1 class="main">“Evenfolio"</h1>
+       <p class="sub">손으로 써내려가는 모든 것들은 
+        저마다의 따스함을 가지고 있다고 믿습니다. </p>
+       <a target="_blank" href="https://www.instagram.com/fightingsz/">Daily Log / 인스타그램</a>
+        <a target="_blank" href="https://brunch.co.kr/@jessiej">그녀의 생각들 / 브런치</a>
+        <a target="_blank" href="https://www.youtube.com/channel/UCDVMnPgTx1S6n2VJEQop-WQ">안녕, 언젠가! / 유튜브</a>
+        <a target="_blank" href="https://blog.naver.com/fightingsz">아주 솔직한 일상 / 네이버블로그</a>
+        </div>
+       
+    </body>
+</html>
